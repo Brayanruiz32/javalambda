@@ -4,11 +4,11 @@ import java.math.BigDecimal;
 
 public class BankRequest {
 
-    private BigDecimal amount; 
+    private BigDecimal amount; //monto en bigdecimal por la alta precision
 
-    private Integer term;
+    private Integer term;//plazo
 
-    private BigDecimal rate;
+    private BigDecimal rate;//tasa
 
     public BigDecimal getAmount() {
         return amount;
